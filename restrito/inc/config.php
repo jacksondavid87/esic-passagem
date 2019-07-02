@@ -21,10 +21,11 @@ define("SISTEMA_NOME", "e-SIC Livre"); //nome do sistema para exibi��o em lu
 define("SISTEMA_CODIGO", "esiclivre"); //codigo para defini��o da lista de sess�o do sistema
 
 // Configurações de banco de dados
+// Não esquecer de alterar, uso padrão devido o git
 define("DBHOST", "localhost");
-define("DBUSER", "root");
-define("DBPASS", "J@ckson");
-define("DBNAME", "esic");
+define("DBUSER", "");
+define("DBPASS", "");
+define("DBNAME", "");
 
 // Definições de e-mail
 define("USE_PHPMAILER", false);
